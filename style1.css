@@ -1,0 +1,306 @@
+#wrapper{font-family:sans-serif;}
+.container{width:95%;
+margin:0 auto
+}
+#subheader{
+	width: 100%;
+	height: 100px;
+	background-color:black;
+	color: #fff8dc;
+	margin-top: -10px;
+}
+#subheader p{
+	float: left;
+	margin-top: 7px;
+}
+#subheader a{
+	float: right;
+	line-height: 50px;
+	color: #fff8dc;
+	text-decoration: none;
+	margin-left: 30px;
+        font-family: cursive
+
+}
+/* logo styling */
+
+#main-header{
+	width: 100%;
+	height: 100px;
+	background: #8b3e2f;
+	float: left;
+	margin-top: -12px;
+}
+#logo{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+
+}
+#ist{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 10px;
+	font-family: cursive;
+
+}
+#iist{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+
+	font-family: cursive;
+}
+/*search box*/
+
+#search{
+	width: 650px;
+        	float:left;
+	padding: 20px;
+	margin-left: 50px;
+}
+.search-area{
+	width: 450px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+        	float: left;
+	padding-left: 30px;
+        
+}
+.search-bttn{
+	width: 80px;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	color: #fff;
+	background: #ff7256;
+	margin-left: -80px;
+        
+}
+
+/*user menu */
+
+#user-menu{
+	width: 400px;
+	float:left;
+	margin-top: 10px;
+
+
+}
+/* list style*/
+#user-menu li{
+	float: left;
+	width: 50px;
+	list-style: none;
+	margin-top: 20px;
+	padding-right: 20px;
+
+}
+
+#user-menu li:hover{
+	transform: scale(350%,350%);
+	transition: all .2s ease;
+
+}
+
+#user-menu li a img{
+	width: 200%;
+	height: 200%;
+}
+
+
+/* navigation bar */
+
+#navigation{
+	width: 100%;
+	height: 35px;
+	background-color:black;
+	float: left;
+	}
+nav{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+nav a{
+	margin-left: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover{
+	color: red;
+	transition: all .6s ease;
+}
+
+/* slider */
+#slider{
+	width: 100%;
+	max-width: 100%;
+	float: left;
+
+}
+
+/* category */
+
+#heading{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: white;
+	font-size: 22px;
+}
+#heading h2{
+	line-height: 35px;
+	border-left: 20px;
+        color: white;
+	padding-left: 10px;
+}
+#heading h3{
+        line-height: 35px;
+	border-left: 10px solid #4f545b;
+	padding-left: 10px;
+
+}
+#help{
+color: white;
+padding-top: 40px;
+padding-left: 40px;
+}
+.form-submit{
+    width: 150px;
+    height:50px;
+    background-color:#ddd1c3;
+    border-radius: 4px;
+}
+.fo{
+color: white;
+width: 25%;
+	float: center;
+}
+
+/*categoryboxes*/
+.catbox{
+	width: 230px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+        margin-bottom: 30px;
+	
+
+
+}
+.catbox span{
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	bottom: 30px;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+
+}
+.catbox:hover span{
+	color: #c0d2ed;
+}
+.catbox img{
+	max-width: 100%;
+	transition: all .5s ease;
+}
+.catbox:hover img{
+	transform: scale(1.3,1.3);
+	transition: all .5s ease;
+	transition:
+
+}
+
+/* products container */
+
+.probox{
+	width: 235px;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.probox img{
+	max-width: 100%;
+
+}
+.pro-trans{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height:95%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	opacity: 0;
+	transition: all .5s ease;
+}
+.probox:hover .pro-trans{
+	opacity: 1;
+	transition: all .5s ease;
+}
+.pro-feature{
+	text-align: center;
+	margin-top: -150px;
+	transition: all .5s ease;
+}
+.pro-feature p{
+	color: #fff;
+	font-family: verdana;
+}
+
+.probox:hover .pro-feature{
+	margin-top: 150px;
+	transition: all .5s ease;
+}
+.pro-feature input{
+	width: 150px;
+	height: 35px;
+	font-size: 17px;
+}
+
+/*footer*/
+
+#footer{
+	width: 100%;
+	height: auto;
+	background-color:black;
+	float: left;
+}
+
+.footer-sub{
+	width: 100%;
+	
+	float: center;
+}
+.footer-sub a{
+		text-decoration: none;
+		color: #c0d2ed;
+		text-align: center;
+		height:20px;
+                
+}
+
+
+body{
+background: url("image/bt.jpg");
+font-family: Courier;
+}
+
+
+
